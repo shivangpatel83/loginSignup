@@ -11,6 +11,7 @@
 <body>
    <div class="container">
     <h2>Welcome to SignUp Page</h2>
+    <form class="signup">
     <div class="nameArea">
     <label for="name">Name: </label>
     <input type="text" name="name" id="name" placeholder="Enter your name">
@@ -21,15 +22,15 @@
     </div>
     <div class="passwordArea">
     <label for="password">Password: </label>
-    <input type="text" name="password" id="password" placeholder="Enter your password">
+    <input type="password" name="password" id="password" value="Shiv@123" placeholder="Enter your password">
     </div>
     <div class="CpasswordArea">
     <label for="Cpassword">Confirm Password: </label>
-    <input type="text" name="Cpassword" id="Cpassword" placeholder="Confirm your password">
+    <input type="password" name="Cpassword" id="Cpassword" value="Shiv@123" placeholder="Confirm your password">
     </div>
-    <div class="submit">
-    <button id="btn">Submit</button>
-    </div>
+    <input class="submit" type="submit">
+    <div class="error"></div>
+    </form>
    </div>
     <script src="app.js"></script>
 </body>
